@@ -10,12 +10,28 @@ interface InitalState {
 const initialState: InitalState = {
     tasks: [
         {
-            id: "skdfjkdr",
+            id: "1",
             title:"Initialized frontend",
             description: "created Home page, and routing",
             dueDate: "2025-11",
             isCompleted: false,
-            priority: "High"
+            priority: "high"
+        },
+        {
+            id: "2",
+            title:"Initialized frontend",
+            description: "created Home page, and routing",
+            dueDate: "2025-11",
+            isCompleted: false,
+            priority: "medium"
+        },
+        {
+            id: "3",
+            title:"Initialized frontend",
+            description: "created Home page, and routing",
+            dueDate: "2025-11",
+            isCompleted: false,
+            priority: "low"
         }
     ],
     filter:"all"
